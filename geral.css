@@ -206,8 +206,29 @@ footer {
     border-radius: 12px;
     align-items: center;
     text-align: center;
-    background-color: #ff4d4d; 
-    transition: width 10s ease-in-out, background-color 2s ease-in-out;  
+    background-color: #ff4d4d;
+    transition: width 10s ease-in-out, background-color 2s ease-in-out;
     transition: all 2s ease;
-    transform: translate(200%, 0%);   
+    transform: translate(200%, 0%);
+}
+
+@media screen and (max-width: 768px) {
+
+    .coluna-esquerda,
+    .coluna-direita {
+        width: 100%;
+    }
+}
+
+/* Telas com largura maior que 768px */
+@media screen and (min-width: 769px) {
+    .coluna-esquerda {
+        width: 30%;
+        float: left;
+    }
+
+    .coluna-direita {
+        width: 70%;
+        float: right;
+    }
 }
