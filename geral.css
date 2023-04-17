@@ -232,3 +232,10 @@ footer {
         float: right;
     }
 }
+
+@media (max-width: 500px) {
+    .galeria {
+      gap: 2.8rem;
+    }
+  }
+  
