@@ -137,6 +137,21 @@ console.log(elemento.id)
 document.querySelector('#btn-click').addEventListener('click', animaModal);
 
 
+/* Toggle do menu sanduíche */
+
+const menuToggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
+
+menuToggle.addEventListener('click', () => {
+  menu.classList.toggle('active');
+});
+
+
+
+
+
+
+
 
 
 
