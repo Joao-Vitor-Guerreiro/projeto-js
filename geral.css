@@ -233,7 +233,7 @@ footer {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 414px) {
     .galeria {
       gap: 2.8rem;
     }
