@@ -234,8 +234,14 @@ footer {
 }
 
 @media (max-width: 414px) {
+    .container {
+        margin: 36px;
+    }
     .galeria {
       gap: 2.8rem;
+    }
+    .galeria img {
+        width: 40%;
     }
   }
   
